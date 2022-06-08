@@ -1,11 +1,11 @@
 import React from 'react';
-import { TouchableWithoutFeedback } from 'react-native';
+import { TouchableHighlight } from 'react-native';
 
 const Button: React.FC = ({ children }) => {
     return (
-        <TouchableWithoutFeedback>
+        <TouchableHighlight>
             {children}
-        </TouchableWithoutFeedback>
+        </TouchableHighlight>
     );
 }
 
